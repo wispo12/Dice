@@ -90,3 +90,4 @@ class Die //models one single dice cube
     //your code here
   }
 }
+
