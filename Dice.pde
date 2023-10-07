@@ -5,7 +5,7 @@ background(360,360,360);
   size(500, 300);
 
   noLoop();
-
+  
 }
 void draw()
 {
@@ -41,14 +41,14 @@ class Dice
     myX=x;
     myY=y;
  
-
+   
   }
   void toss()
   {
 
     num= ((int)(Math.random()*6)+1);
-
-
+   
+     
   }
  
   void show()
@@ -56,7 +56,7 @@ class Dice
    fill(0,0,0);
     square(myX,myY,50);
       fill(365,365,365);
-
+     
       fill(0,0,0);
       if(num==1)
       {
@@ -98,7 +98,7 @@ class Dice
               ellipse(myX+25,myY+25,10,10);
         fill(0,0,0);
       }
-     else
+     else  
       {
         fill(360,360,360);
         ellipse(myX+10,myY+13,10,10);
