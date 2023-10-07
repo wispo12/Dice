@@ -13,10 +13,10 @@ void draw()
   fill(255);
   rect(210,150,100,50);
   fill(0);
-  text("Total: " + total,300,50);
+  text("Total: " + total,210,150);
   total = 0;
 for (y=30;y<400;y+=60){
-     for(x=30;x<=300;x+=60){
+     for(x=30;x<=240;x+=60){
      Die what = new Die(y,x);
   what.roll();
   what.show();
