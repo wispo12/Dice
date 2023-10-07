@@ -31,7 +31,8 @@ class Dice
 {
 
   int num;
-  int myX, myY;
+  int myX
+  int myY;
 
 
   Dice(int x, int y)
