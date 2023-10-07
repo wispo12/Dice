@@ -32,6 +32,8 @@ for (y=30;y<400;y+=60){
 void mousePressed()
 {
   redraw();
+fill(0,0,0);
+rectangle(150,150,1000,1000)
 
 }
 class Die //models one single dice cube
