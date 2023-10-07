@@ -14,7 +14,7 @@ void draw()
    for (y=0;y<500;y+=60){
      for(x=0;x<=450;x+=60){
    bob=new Dice(x,y);
- 
+ square (50,50,50);
   bob.toss();
   bob.show();
 
