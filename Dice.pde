@@ -1,11 +1,11 @@
 Dice bob;
 void setup()
 {
-background(300,300,300);
+background(360,360,360);
   size(500, 300);
 
   noLoop();
-  bob=new Dice(100,200);
+  
 }
 void draw()
 {
@@ -39,7 +39,7 @@ class Dice
 
     myX=x;
     myY=y;
-    num=(int)(Math.random()*6)+1;
+ 
    
   }
   void toss()
