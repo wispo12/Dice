@@ -11,7 +11,7 @@ void draw()
 {
   noLoop();
   fill(255);
-  ellipse(320,50,100,50);
+  rect(210,150,100,50);
   fill(0);
   text("Total: " + total,300,50);
   total = 0;
