@@ -2,7 +2,7 @@ public int total;
 void setup()
 {
   background(0);
-  size(500, 300);
+  size(400, 300);
 
   noLoop();
 
@@ -15,9 +15,9 @@ void draw()
   fill(0);
   text("Total: " + total,300,50);
   total = 0;
-for (y=0;y<500;y+=60){
-     for(x=0;x<=450;x+=60){
-     Die what = new Die(x,y);
+for (y=0;y<400;y+=60){
+     for(x=0;x<=300;x+=60){
+     Die what = new Die(y,x);
   what.roll();
   what.show();
   }
