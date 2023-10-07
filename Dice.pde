@@ -15,9 +15,7 @@ void draw()
   fill(255,255,255);
 
   text("Total: " + total,185,280);
-fill(0,0,0);
-rectangle(180,280,100,100)
-fill(255,255,255);
+
   total = 0;
 for (y=30;y<400;y+=60){
      for(x=30;x<=240;x+=60){
