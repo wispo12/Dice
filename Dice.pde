@@ -1,7 +1,7 @@
 Dice bob;
 void setup()
 {
-
+background(360,360,360);
   size(500, 300);
   textAlign(50,50);
   noLoop();
