@@ -112,4 +112,4 @@ class Dice
 }
 
 }
-w
+
