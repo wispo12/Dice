@@ -15,7 +15,7 @@ void draw()
   fill(0);
   text("Total: " + total,300,50);
   total = 0;
-for (30=0;y<400;y+=60){
+for (y=30;y<400;y+=60){
      for(x=30;x<=300;x+=60){
      Die what = new Die(y,x);
   what.roll();
