@@ -61,54 +61,55 @@ class Dice
       if(num==1)
       {
         fill(360,360,360);
-        circle(myX+25,myY+25,10);
+        ellipse(myX+25,myY+25,10,10);
         fill(0,0,0);
       }
       else if(num==2)
       {
         fill(360,360,360);
-        circle(myX+13,myY+13,10);
-         circle(myX+11+25,myY+11+25,10);
+        ellipse(myX+13,myY+13,10,10);
+        ellipse(myX+11+25,myY+11+25,10,10);
         fill(0,0,0);
       }
       else if(num==3)
       {
         fill(360,360,360);
-        circle(myX+25,myY+13,10);
-         circle(myX+25,myY+25,10);
-           circle(myX+25,myY+37,10);
+        ellipse(myX+25,myY+13,10,10);
+         ellipse(myX+25,myY+25,10,10);
+           ellipse(myX+25,myY+37,10,10);
         fill(0,0,0);
       }
        else if(num==4)
       {
         fill(360,360,360);
-        circle(myX+10,myY+10,10);
-         circle(myX+40,myY+10,10);
-           circle(myX+10,myY+40,10);
-             circle(myX+40,myY+40,10);
+        ellipse(myX+10,myY+10,10,10);
+         ellipse(myX+40,myY+10,10,10);
+           ellipse(myX+10,myY+40,10,10);
+             ellipse(myX+40,myY+40,10,10);
         fill(0,0,0);
       }
         else  if(num==5)
       {
         fill(360,360,360);
-        circle(myX+10,myY+10,10);
-         circle(myX+40,myY+10,10);
-           circle(myX+10,myY+40,10);
-             circle(myX+40,myY+40,10);
-                circle(myX+25,myY+25,10);
+        ellipse (myX+10,myY+10,10,10);
+         ellipse(myX+40,myY+10,10,10);
+           ellipse(myX+10,myY+40,10,10);
+             ellipse(myX+40,myY+40,10,10);
+              ellipse(myX+25,myY+25,10,10);
         fill(0,0,0);
       }
      else  
       {
         fill(360,360,360);
-        circle(myX+10,myY+13,10);
-         circle(myX+10,myY+25,10);
-           circle(myX+10,myY+37,10);
-                 circle(myX+40,myY+13,10);
-         circle(myX+40,myY+25,10);
-           circle(myX+40,myY+37,10);
+        ellipse(myX+10,myY+13,10,10);
+         ellipse(myX+10,myY+25,10,10);
+           ellipse(myX+10,myY+37,10,10);
+                 ellipse(myX+40,myY+13,10,10);
+         ellipse(myX+40,myY+25,10,10);
+           ellipse(myX+40,myY+37,10,10);
         fill(0,0,0);
       }
 }
 
 }
+w
