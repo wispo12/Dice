@@ -1,7 +1,7 @@
 Dice bob;
 void setup()
 {
-background(360,360,360);
+background(255,255,255);
   size(500, 300);
 
   noLoop();
@@ -55,25 +55,25 @@ class Dice
   {
    fill(0,0,0);
     square(myX,myY,50);
-      fill(365,365,365);
+      fill(255,255,255);
      
       fill(0,0,0);
       if(num==1)
       {
-        fill(360,360,360);
+        fill(255,255,255);
         ellipse(myX+25,myY+25,10,10);
         fill(0,0,0);
       }
       else if(num==2)
       {
-        fill(360,360,360);
+        fill(255,255,255);
         ellipse(myX+13,myY+13,10,10);
         ellipse(myX+11+25,myY+11+25,10,10);
         fill(0,0,0);
       }
       else if(num==3)
       {
-        fill(360,360,360);
+        fill(255,255,255);
         ellipse(myX+25,myY+13,10,10);
          ellipse(myX+25,myY+25,10,10);
            ellipse(myX+25,myY+37,10,10);
@@ -81,7 +81,7 @@ class Dice
       }
        else if(num==4)
       {
-        fill(360,360,360);
+        fill(255,255,255);
         ellipse(myX+10,myY+10,10,10);
          ellipse(myX+40,myY+10,10,10);
            ellipse(myX+10,myY+40,10,10);
@@ -90,7 +90,7 @@ class Dice
       }
         else  if(num==5)
       {
-        fill(360,360,360);
+        fill(255,255,255);
         ellipse (myX+10,myY+10,10,10);
          ellipse(myX+40,myY+10,10,10);
            ellipse(myX+10,myY+40,10,10);
@@ -100,7 +100,7 @@ class Dice
       }
      else  
       {
-        fill(360,360,360);
+        fill(255,255,255);
         ellipse(myX+10,myY+13,10,10);
          ellipse(myX+10,myY+25,10,10);
            ellipse(myX+10,myY+37,10,10);
