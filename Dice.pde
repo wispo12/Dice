@@ -15,9 +15,9 @@ void draw()
   fill(0);
   text("Total: " + total,300,50);
   total = 0;
-  for ( int i = 100; i<=600;i+=100){
-    for (int p = 100; p<600; p+=100){
-     Die what = new Die(i,p);
+for (y=0;y<500;y+=60){
+     for(x=0;x<=450;x+=60){
+     Die what = new Die(x,y);
   what.roll();
   what.show();
   }
