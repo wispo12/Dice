@@ -2,7 +2,7 @@ public int total;
 void setup()
 {
   background(0);
-  size(660, 660);
+  size(500, 300);
 
   noLoop();
 
