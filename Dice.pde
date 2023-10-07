@@ -16,7 +16,7 @@ void draw()
 
   text("Total: " + total,185,280);
 fill(0,0,0);
-rectangle(150,150,1000,1000)
+rectangle(180,280,100,100)
 fill(255,255,255);
   total = 0;
 for (y=30;y<400;y+=60){
@@ -35,8 +35,7 @@ for (y=30;y<400;y+=60){
 void mousePressed()
 {
   redraw();
-fill(0,0,0);
-rectangle(150,150,1000,1000)
+
 
 }
 class Die //models one single dice cube
