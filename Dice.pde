@@ -12,7 +12,8 @@ void draw()
   noLoop();
   fill(255);
   rect(160,230,100,50);
-  fill(0);
+  fill(0,0,0);
+
   text("Total: " + total,185,220);
   total = 0;
 for (y=30;y<400;y+=60){
