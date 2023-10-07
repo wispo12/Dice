@@ -54,7 +54,7 @@ class Dice
   void show()
   {
    fill(0,0,0);
-    square(myX,myY,50);
+    rectangle(myX,myY,50,50);
       fill(365,365,365);
      
       fill(0,0,0);
