@@ -1,17 +1,15 @@
 Dice bob;
 void setup()
 {
-background(360,360,360);
+background(300,300,300);
   size(500, 300);
-  textAlign(50,50);
+
   noLoop();
   bob=new Dice(100,200);
 }
 void draw()
 {
-fill(0,0,0);
-rectangle(50,50,50,50);
-square(80,80,50);
+
    int x=0;
    int y=0;
    for (y=0;y<500;y+=60){
