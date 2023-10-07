@@ -28,14 +28,14 @@ void mousePressed()
 }
 class Dice
 {
-  //three member variables
+
   int num;
   int myX, myY;
 
-  //three member functions
-  Dice(int x, int y) //constructor
+
+  Dice(int x, int y)
   {
-    //java code
+
     myX=x;
     myY=y;
     num=(int)(Math.random()*6)+1;
@@ -43,7 +43,7 @@ class Dice
   }
   void toss()
   {
-    //java code
+
     num= ((int)(Math.random()*6)+1);
    
      
