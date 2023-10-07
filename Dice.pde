@@ -11,8 +11,8 @@ void draw()
 {
   noLoop();
   fill(255);
-  rect(160,230,100,50);
-  fill(0,0,0);
+
+  fill(255,255,255);
 
   text("Total: " + total,185,220);
   total = 0;
