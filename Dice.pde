@@ -9,6 +9,7 @@ background(360,360,360);
 }
 void draw()
 {
+fill(0,0,0);
 rectangle(50,50,50,50);
 square(80,80,50);
    int x=0;
